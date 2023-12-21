@@ -1,0 +1,54 @@
+package com.example.demo;
+
+public class Constants {
+    public static final String JWT_TOKEN_PREFIX_FOR_AUTHENTICATION = "Bearer ";  public static final String JWT_HEADER_FOR_AUTHENTICATION = "Authorization";
+    public static final String JWT_SECRET_KEY = "${jwt.secret}";
+    public static final String USER_PATH= "/users";
+    public static final String COMPANY_PATH= "/company";
+    public static final String PROJECT_PATH= "/project";
+    public static final String EMPLOYEE_PATH= "/employee";
+    public static final String ASSIGN_PROJECT_PATH= "/assignProject";
+    public static final String ATTENDANCE= "/attendance";
+    public static final String EMPLOYEES= "employees";
+    public static final String ASSIGN_PROJECT= "assignProject";
+    public static final String EMPLOYEE= "employee";
+    public static final String EMPLOYEE_ID= "employeeId";
+    public static final String PROJECT_ID= "projectId";
+    public static final String PATH_EMP_ID= "/{empId}";
+    public static final String PATH_VARIABLE_ID = "/{id}";
+    public static final String ID_PATH = "/id";
+    public static final String ATTENDENCE = "attendence";
+    public static final String ID = "id";
+    public static final String PROJECTS = "projects";
+    public static final String DATE_FORMAT = "yyyy-MM-dd";
+    public static final String PATH = "/";
+    public static final String SWAGGER = "/swagger**";
+    public static final String PERMIT_ALL_PATH = "/**";
+    public static final String ROLES = "/roles";
+    public static final String AUTHORITIES_PATH = "/authorities";
+    public static final String AUTHORITY = "authority";
+    public static final String LOGIN = "/login";
+    public static final String EMP_ID = "empId";
+    public static final String MSG_ADDED = "added";
+    public static final String MSG_DELETED = "deleted";
+    public static final String MSG_UPDATED = "updated";
+    public static final String MSG_PROJECT_ASSIGNED= "project assigned";
+    public static final String MSG_EXISTS = "already exists";
+    public static final String MSG_NOT_EXISTS = "it doesn't exist";
+    public static final String MSG_ATTENDENCE_MARKED = "attendance marked";
+    public static final String ROLE_NAME = "roleName";
+    public static final String ROLE = "role";
+    public static final String DATE = "/date";
+    public static final String ROLE_ID = "role_id";
+    public static final String HAS_AUTHORITY_READ = "hasAuthority('READ')";
+    public static final String HAS_AUTHORITY_WRITE = "hasAuthority('WRITE')";
+    public static final int SEVEN = 7;
+    public static final int TOKEN_VALIDITY = 1000 * 60 * 60 * 10;
+    public static final String DUPLICATE_EXCEPTION_MSG = "User name already exists";
+    public static final String BOOK_NOT_FOUND_EXCEPTION_MSG = "book not found";
+    public static final String RECORD_NOT_FOUND_EXCEPTION_MSG = "No Such user existing";
+    public static final String BOOK_RETURNED_EXCEPTION_MSG = "you already returned";
+    public static final String INVALID_USER_EXCEPTION_MSG = "Invalid credentials";
+    public static final String INVALID_USER_USERNAME_EXCEPTION_MSG = "Username not found";
+}
+
